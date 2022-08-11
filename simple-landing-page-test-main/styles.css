@@ -1,0 +1,409 @@
+/******* LANDING PAGE STYLES *******/
+/*Author: Scott Walker 8-10-2022*/
+@charset "utf-8";
+
+/*===============================================BASE STYLES=========================================*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*=============================================MOBILE STYLES=======================================*/
+
+.wrapper {
+    background-color: rgb(235, 244, 255);
+}
+
+#logo {
+    display: block;
+    width: 30vw;
+    left: 10%;
+    top: 10%;
+}
+
+.wrapper #contact {
+    position: absolute;
+    top: 4.75%;
+    right: 4%;
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(41, 121, 242);
+    color: #fff;
+    padding: 10px 30px;
+    font-weight:600;
+}
+
+#contact .btn {
+    color: #fff;
+}
+
+.wrapper #marketing h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 60px;
+}
+
+.wrapper #marketing h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+}
+
+.description {
+    margin: 5%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#svg {
+    margin: 5%;
+}
+
+#whatWeAre {
+    margin: 3%;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 55px;
+}
+
+#experience {
+    margin: 5%;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bestWay {
+    margin: 5%;
+    text-align: center;
+    font-size: 2.25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#withEBQ {
+    margin: 5%;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+#deptMarketing {
+    width: 80vw;
+    margin: 10% 5% 15% 10%;
+}
+
+footer {
+    height: 25em;
+    background-color: rgb(11, 70, 159);
+}
+
+footer p#goal {
+    color: #fff;
+    margin: 5%;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footerContact {
+    text-align: center;
+}
+
+#footerContact .btn {
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(255, 191, 61);
+    color: rgb(11, 70, 159);
+    padding: 10px 30px;
+    font-weight:600;
+}
+
+/*=============================================TABLET STYLES=======================================*/
+@media screen and (min-width: 481px) {
+
+body .wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vw;
+}
+
+.wrapper #contact {
+    position: absolute;
+    top: 3em;
+    right: 2em;
+}
+
+#contact .btn {
+    color: #fff;
+}
+
+.wrapper #marketing h1 {
+    position: absolute;
+    text-align: left;
+    top: 5em;
+    left: 2em;
+}
+
+.wrapper #marketing h2 {
+    position: absolute;
+    text-align: left;
+    top: 6.15em;
+    left: 2em;
+}
+    
+p.description {
+    position: absolute;
+    top: 13em;
+    left: 2em;
+    width: 40%;
+    text-align: left;
+}
+
+p#whatWeAre {
+    position: absolute;
+    top: 14em;
+    left: 2em;
+    width: 50%;
+    text-align: left;
+    margin: 0;
+}
+
+#svg {
+    position: absolute;
+    top: 37em;
+    right: 2%; 
+    width: 30%;
+    height: 10%;
+}
+
+p#experience {
+    position: absolute;
+    top: 49em;
+    left: 2em;
+    width: 40%;
+    text-align: left;
+}
+
+p#bestWay {
+    position: absolute;
+    top: 28em;
+    right: 1em;
+    width: 35%;
+    text-align: left;
+}
+    
+#withEBQ {
+    position: absolute;
+    top: 64em;
+    right: 2em;
+    width: 35%;
+    text-align: left;
+}
+
+#deptMarketing {
+    position: absolute;
+    top: 70em;
+    left: 2em;
+    width: 30vw;
+}
+
+footer {
+    position: absolute;
+    top: 100em;
+    height: 20em;
+    width: 100%;
+    background-color: rgb(11, 70, 159);
+}
+    
+footer p#goal {
+    color: #fff;
+    margin: 5%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#footerContact {
+    text-align: center;
+}
+
+#footerContact .btn {
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(255, 191, 61);
+    color: rgb(11, 70, 159);
+    padding: 10px 30px;
+    font-weight:600;
+}
+}
+
+/*=============================================DESKTOP STYLES=======================================*/
+@media screen and (min-width: 769px) {
+
+.wrapper{
+    width: 100%;
+    height: 85%;
+}
+
+.wrapper .logo-placement #logo {
+    position: absolute;
+    top:0;
+    margin-left: 2%;
+}
+
+.wrapper #contact {
+    position: absolute;
+    top: 8%;
+    right: 4%;
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(41, 121, 242);
+    color: #fff;
+    padding: 10px 30px;
+    font-weight:600;
+}
+    
+#contact .btn {
+    color: #fff;
+}
+    
+.wrapper #marketing h1 {
+    position: absolute;
+    top: 7em;
+    left: 4em;
+    text-align: left;
+    margin: 0;
+}
+
+.wrapper #marketing h2 {
+    position: absolute;
+    top: 8.15em;
+    left: 4em;
+    text-align: left;
+    margin: 0;
+}
+    
+p.description {
+    position: absolute;
+    top: 20em;
+    left: 8em;
+    text-align: left;
+    margin: 0;
+    width: 33%;
+}
+
+p#whatWeAre {
+    position: absolute;
+    top: 22em;
+    left: 4em;
+    width: 40%;
+    text-align: left;
+    margin: 0;
+}
+    
+#svg {
+    position: absolute;
+    top: 55em;
+    right:2%;
+    width: 35vw;
+}
+
+p#experience {
+    position: absolute;
+    top: 47em;
+    left: 7em;
+    width: 40%;
+    text-align: left;
+    margin: 0;
+}
+
+p#bestWay {
+    width: 28%;
+    position: absolute;
+    top: 38em;
+    right: 3em;
+    text-align: left;
+}
+        
+p#withEBQ {
+    width: 34%;
+    position: absolute;
+    top: 65em;
+    right: .5em;
+    text-align: left;
+    line-height: 30px;
+} 
+
+#completeMarketing {
+    position: absolute;
+    width: 30vw;
+    top: 14em;
+    left: 6em;
+}
+
+.footer {
+    top: 130em;
+    height: 25em;
+    background-color: rgb(11, 70, 159);
+    display: block;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+        
+footer p#goal {
+    color: #fff;
+    margin: 5%;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footerContact {
+    text-align: center;
+}
+
+#footerContact .btn {
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(255, 191, 61);
+    color: rgb(11, 70, 159);
+    padding: 10px 30px;
+    font-weight:600;
+}
+}
